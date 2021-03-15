@@ -1,7 +1,7 @@
 import path from "path";
 import svelte from "rollup-plugin-svelte";
 import alias from "@rollup/plugin-alias";
-import clear from 'rollup-plugin-clear'
+import clear from 'rollup-plugin-clear';
 import resolve from "@rollup/plugin-node-resolve";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
