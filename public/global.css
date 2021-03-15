@@ -1,0 +1,241 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-size: 1em;
+  min-height: 100vh;
+  background: radial-gradient(circle at 2.02% 60.99%, #AA076B, transparent 100%),radial-gradient(circle at 97.98% 15.01%, #61045F, transparent 100%),radial-gradient(circle at 50% 50%, #fcffe6, #fcffe6 100%);
+  color: #3c3c3e;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: block;
+  width: 100%;
+}
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+input::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.8;
+}
+textarea::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.8;
+}
+input::-moz-placeholder {
+  color: inherit;
+  opacity: 0.8;
+}
+textarea::-moz-placeholder {
+  color: inherit;
+  opacity: 0.8;
+}
+.btn {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #f76829;
+  border-style: none;
+  display: inline-block;
+  padding: 16px 30px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #ea4d09;
+}
+input:not([type]),
+[type="text"],
+[type="email"],
+[type="number"],
+[type="password"],
+[type="tel"],
+[type="url"],
+textarea {
+  border: 1px solid #e0e0e0;
+  padding: 1em 1.3em;
+  border-radius: 3px;
+  width: 100%;
+  background: #ffffff;
+  color: #3c3c3e;
+}
+input:not([type]):focus,
+[type="text"]:focus,
+[type="email"]:focus,
+[type="number"]:focus,
+[type="password"]:focus,
+[type="tel"]:focus,
+[type="url"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+textarea {
+  min-height: 10em;
+}
+select {
+  font-size: inherit;
+  font-family: inherit;
+  border: 1px solid #e0e0e0;
+  padding: 1em 1.3em;
+  border-radius: 3px;
+  max-width: 100%;
+  background: #ffffff;
+  color: #3c3c3e;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}

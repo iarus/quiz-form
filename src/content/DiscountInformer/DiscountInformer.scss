@@ -1,0 +1,40 @@
+.discount-informer {
+  background-color: #f76829;
+  color: #fff;
+  padding: 2em;
+  box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.2);
+}
+
+.title-block {
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1em;
+
+  .title {
+    background: url("./icon__discount__fff.svg") 50% 0/2em auto no-repeat;
+    padding-top: 2.5em;
+    margin: 0;
+    font-size: 1.4em;
+    text-transform: none;
+  }
+
+  .sub-title {
+    margin: 1em 0 0;
+    font-weight: bold;
+  }
+}
+
+.value-block {
+  text-align: center;
+  padding-top: 1em;
+  margin: 0;
+
+  .title {
+    display: block;
+  }
+
+  .value {
+    font-weight: bold;
+    font-size: 2em;
+  }
+}
