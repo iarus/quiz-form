@@ -15,7 +15,7 @@ import autoprefixer from "autoprefixer";
 
 const production = !process.env.ROLLUP_WATCH;
 const BUILD_PATH = "public/build";
-const PUBLIC_PATH = "/build/";
+const PUBLIC_PATH = "build/";
 
 function serve() {
   let server;
