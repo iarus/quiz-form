@@ -239,3 +239,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+.github_link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  margin: 0.5em 1.5em 0.5em auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.github_link:hover {
+  text-decoration: underline;
+}
+
+.github_link-img {
+  width: 2em;
+  margin: 0 0.5em 0 0;
+}
